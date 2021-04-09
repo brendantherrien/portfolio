@@ -18,6 +18,8 @@ function Home() {
 
       {/*  Page content */}
       <main className="flex-grow">
+        
+        <p>Cesar is cute.</p>
 
         {/*  Page sections */}
         <HeroHome />
