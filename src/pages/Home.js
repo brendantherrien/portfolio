@@ -3,9 +3,8 @@ import React from 'react';
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
 import AboutMe from '../partials/AboutMe';
-import FeaturesBlocks from '../partials/FeaturesBlocks';
-import FeaturesWorld from '../partials/FeaturesWorld';
-import News from '../partials/News';
+import Skillset from '../partials/Skillset';
+import Projects from '../partials/Projects';
 import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
 
@@ -22,9 +21,8 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
         <AboutMe />
-        <FeaturesBlocks />
-        <FeaturesWorld />
-        <News />
+        {/* <Skillset /> */}
+        <Projects />
         <Cta />
 
       </main>

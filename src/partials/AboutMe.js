@@ -31,13 +31,13 @@ function AboutMe() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">About Me</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <p className="text-xl text-gray-600">I'm a full stack developer specializing in JavaScript. Designer at heart.</p>
           </div>
 
           {/* Top image */}
-          <div className="pb-12 md:pb-16">
+          {/* <div className="pb-12 md:pb-16">
             <img src={require('../images/features-top-image.png')} width="1104" height="325" alt="Features top" />
-          </div>
+          </div> */}
 
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">
@@ -45,8 +45,8 @@ function AboutMe() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                <h3 className="h3 mb-3">My Journey</h3>
+                {/* <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p> */}
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -56,8 +56,8 @@ function AboutMe() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Website dev w/ PHP and JavaScript</div>
+                    <div className="text-gray-600">I started designing websites at the age of 15, utilizing CSS, JavaScript, PHP, and MySQL.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -71,8 +71,8 @@ function AboutMe() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">JavaScript, TypeScript, ES6+</div>
+                    <div className="text-gray-600">Started learning front-end JavaScript frameworks. Proficient in React and React Native. Learning Angular and Vue.js.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -86,8 +86,8 @@ function AboutMe() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Building a native iOS app.</div>
+                    <div className="text-gray-600">Currently working to build a native iOS mobile app for my job at <a href="https://are-corp.com">ARE</a>.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -114,10 +114,10 @@ function AboutMe() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-home-bg-01.png')} width="500" height="375" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-home-element-01.png')} width="500" height="147" alt="Element 01" style={{ top: '22%' }} />
+                    {/* <img className="md:max-w-none mx-auto rounded" src={require('../images/features-home-bg-01.png')} width="500" height="375" alt="Features bg" /> */}
+                    {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-home-element-01.png')} width="500" height="147" alt="Element 01" style={{ top: '22%' }} />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={require('../images/features-home-element-02.png')} width="500" height="158" alt="Element 02" style={{ top: '39%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={require('../images/features-home-element-03.png')} width="500" height="167" alt="Element 03" style={{ top: '77%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={require('../images/features-home-element-03.png')} width="500" height="167" alt="Element 03" style={{ top: '77%' }} /> */}
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -133,10 +133,10 @@ function AboutMe() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-home-bg-01.png')} width="500" height="375" alt="Features bg" />
+                    {/* <img className="md:max-w-none mx-auto rounded" src={require('../images/features-home-bg-01.png')} width="500" height="375" alt="Features bg" />
                     <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={require('../images/features-home-element-03.png')} width="500" height="167" alt="Element 03" style={{ top: '18%' }} />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={require('../images/features-home-element-02.png')} width="500" height="158" alt="Element 02" style={{ top: '40%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-home-element-01.png')} width="500" height="147" alt="Element 01" style={{ top: '79%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-home-element-01.png')} width="500" height="147" alt="Element 01" style={{ top: '79%' }} /> */}
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -152,19 +152,19 @@ function AboutMe() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-home-bg-01.png')} width="500" height="375" alt="Features bg" />
+                    {/* <img className="md:max-w-none mx-auto rounded" src={require('../images/features-home-bg-01.png')} width="500" height="375" alt="Features bg" />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-home-element-01.png')} width="500" height="147" alt="Element 01" style={{ top: '22%' }} />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={require('../images/features-home-element-02.png')} width="500" height="158" alt="Element 02" style={{ top: '39%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={require('../images/features-home-element-03.png')} width="500" height="167" alt="Element 03" style={{ top: '77%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={require('../images/features-home-element-03.png')} width="500" height="167" alt="Element 03" style={{ top: '77%' }} /> */}
                   </div>
                 </Transition>
               </div>
             </div >
 
-          </div >
+          </div>
 
-        </div >
-      </div >
+        </div>
+      </div>
     </section >
   );
 }
