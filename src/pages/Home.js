@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
-import FeaturesHome from '../partials/FeaturesHome';
+import AboutMe from '../partials/AboutMe';
 import FeaturesBlocks from '../partials/FeaturesBlocks';
 import FeaturesWorld from '../partials/FeaturesWorld';
 import News from '../partials/News';
@@ -18,12 +18,10 @@ function Home() {
 
       {/*  Page content */}
       <main className="flex-grow">
-        
-        <p>Cesar is cute.</p>
 
         {/*  Page sections */}
         <HeroHome />
-        <FeaturesHome />
+        <AboutMe />
         <FeaturesBlocks />
         <FeaturesWorld />
         <News />
