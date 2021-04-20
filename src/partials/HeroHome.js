@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
-import resumePDF from '../misc/Resume.pdf';
 
 function HeroHome() {
 
