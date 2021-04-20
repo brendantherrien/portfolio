@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Projects() {
   return (
-    <section>
+    <section id={"projects"}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
